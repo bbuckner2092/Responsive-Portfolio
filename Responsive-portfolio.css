@@ -1,0 +1,40 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    padding-left: ;
+}
+
+.active {
+    background-color: #208779;
+    color: white;
+}
+
+@media screen and (max-width: 980px) {
+    'index.html': [980px](Images/980-index.jpg),
+                    [768px](Images/768-index.jpg),
+                    [640px](Images/768-index.jpg),
+}
+
+    'portfolio.html': [980px](Images/980-portfolio.jpg),
+                        [768px](Images/768-portfolio.jpg),
+                        [640px](Images/768-portfolio.jpg),
